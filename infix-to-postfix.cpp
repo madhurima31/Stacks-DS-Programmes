@@ -37,7 +37,7 @@ void infixToPostfix(string s)
                     ns+=c;
                   }
                 if(st.top()=='('){
-                    char c=')';
+
                     st.pop();
                    }
             }
